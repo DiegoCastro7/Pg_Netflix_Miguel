@@ -1,0 +1,19 @@
+{
+    "section":{
+        "titulo":"Choose the plan that’s right for you",
+        "parrafo":[
+            {
+                "imagen":"<svg class='bi' width='24' height='24'><use xlink:href='#check' /></svg>",
+                "texto":"Watch all you want. Ad-free."
+            },
+            {
+                "imagen":"<svg class='bi' width='24' height='24'><use xlink:href='#check' /></svg>",
+                "texto":"Recommendations just for you"
+            },
+            {
+                "imagen":"<svg class='bi' width='24' height='24'><use xlink:href='#check' /></svg>",
+                "texto":"Change or cancel your plan anytime."
+            }
+        ]
+    }
+}
