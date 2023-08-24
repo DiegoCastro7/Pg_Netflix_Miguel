@@ -15,5 +15,31 @@
                 "texto":"Change or cancel your plan anytime."
             }
         ]
+    },
+    "cartas":{
+        "contenido":[
+            {
+                "titulo":"Basic",
+                "precio":"$16,900",
+                "unidad":"/mo",
+                "cont":"<li>10 users included</li><li>2 GB of storage</li><li>Email support</li><li>Help center access</li>",
+                "boton":"Sign up for free"
+            },
+            {
+                "titulo":"Standar",
+                "precio":"$26,900",
+                "unidad":"/mo",
+                "cont":"<li>10 users included</li><li>2 GB of storage</li><li>Email support</li><li>Help center access</li>",
+                "boton":"Get started"
+            },
+            {
+                "titulo":"Premium",
+                "precio":"$38,900",
+                "unidad":"/mo",
+                "cont":"<li>10 users included</li><li>2 GB of storage</li><li>Email support</li><li>Help center access</li>",
+                "boton":"Get started"
+            }
+        ]
+
     }
 }
