@@ -20,24 +20,30 @@
         "contenido":[
             {
                 "titulo":"Basic",
+                "configcart":"class='card mb-4 rounded-0 shadow-sm border-danger opacity-50'",
                 "precio":"$16,900",
                 "unidad":"/mo",
-                "cont":"<li>10 users included</li><li>2 GB of storage</li><li>Email support</li><li>Help center access</li>",
-                "boton":"Sign up for free"
+                "cont":"<li>1 dispositivo compatible a la vez</li><li>Puedes ver en HD</li><li>Puedes descargar contenido en 1 dispositivo compatible a la vez</li>",
+                "boton":"Get started",
+                "configboton": "class='w-100 btn btn-lg btn-outline-danger'"
             },
             {
                 "titulo":"Standar",
+                "configcart":"class='card mb-4 rounded-0 shadow-sm border-danger opacity-50'",
                 "precio":"$26,900",
                 "unidad":"/mo",
-                "cont":"<li>10 users included</li><li>2 GB of storage</li><li>Email support</li><li>Help center access</li>",
-                "boton":"Get started"
+                "cont":"<li>2 dispositivos compatible a la vez</li><li>Puedes ver en Full HD</li><li>Puedes descargar contenido en 2 dispositivos compatible a la vez</li>",
+                "boton":"Get started",
+                "configboton": "class='w-100 btn btn-lg btn-outline-danger'"
             },
             {
                 "titulo":"Premium",
+                "configcart":"class='card mb-4 rounded-0 shadow-sm border-danger' ",
                 "precio":"$38,900",
                 "unidad":"/mo",
-                "cont":"<li>10 users included</li><li>2 GB of storage</li><li>Email support</li><li>Help center access</li>",
-                "boton":"Get started"
+                "cont":"<li>4 dispositivos compatible a la vez</li><li>Puedes ver en Ultra HD</li><li>Puedes descargar contenido en 6 dispositivos compatible a la vez</li>",
+                "boton":"Get started",
+                "configboton": "class='w-100 btn btn-lg btn-danger'"
             }
         ]
 
