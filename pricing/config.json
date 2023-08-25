@@ -82,7 +82,7 @@
     },
     "footer":{
         "copyright":{
-            "img":"assets/brand/netflix-fill.svg",
+            "icon":"../assets/brand/netflix.svg",
             "text":" Campuslands 2023 Bucaramanga"
         },
         "terminos":[
