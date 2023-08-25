@@ -87,6 +87,33 @@ let construirLaTabla = async()=>{
         </div>
     `);
 }
+let construirElFooter =async()=>{
+    let peticion = await fetch(`${path}.json `);
+    let res = await peticion.json();
+    let Selecion = document.querySelector("#footer");
+    Selecion.insertAdjacentHTML("beforeend",/*html*/ `
+    <div class="row">
+        <div class="col-12 col-md">
+            <img class="mb-2" src="${res.footer.copyright.img}" alt="" width="40" height="50">
+            <small class="d-block mb-3 text-body-secondary">&copy;${res.footer.copyright.text}</small>
+        </div>
+        ${res.footer.terminos.map((value)=>/*html*/`
+        <div class="col-6 col-md">
+            <h5>${value.titulo}</h5>
+            <ul class="list-unstyled text-small">
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">${value.links.item1}</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">${value.links.item2}</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">${value.links.item3}</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">${value.links.item4}</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">${value.links.item5}</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">${value.links.item6}</a></li>
+            <ul>
+        </div>
+        `).join(" ")}
+    </div>
+    `)
+}
 construirElEncabezado();
 construirLasCartas();
 construirLaTabla();
+construirElFooter();
