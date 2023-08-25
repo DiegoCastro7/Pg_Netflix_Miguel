@@ -94,7 +94,7 @@ let construirElFooter =async()=>{
     Selecion.insertAdjacentHTML("beforeend",/*html*/ `
     <div class="row">
         <div class="col-12 col-md">
-            <img class="mb-2" src="${res.footer.copyright.img}" alt="" width="40" height="50">
+            <img class="mb-2" src="${res.footer.copyright.img}" alt="ss" width="40" height="50">
             <small class="d-block mb-3 text-body-secondary">&copy;${res.footer.copyright.text}</small>
         </div>
         ${res.footer.terminos.map((value)=>/*html*/`
