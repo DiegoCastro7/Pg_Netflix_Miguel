@@ -46,6 +46,38 @@
                 "configboton": "class='w-100 btn btn-lg btn-danger'"
             }
         ]
-
+    },
+    "tabla":{
+        "texto1":"Compare plans",
+        "texto2":"Monthly price",
+        "texto3":"Video quality",
+        "texto4":"Resolution",
+        "texto5":"Watch on your TV, computer, mobile phone and tablet",
+        "contenido":[
+            {
+                "plan":"Basic",
+                "precio":"COP16,900",
+                "calidad":"Good",
+                "resolucion":"720p",
+                "img":"<td><svg class='bi' width='24' height='24'><use xlink:href='#check' /></svg></td>",
+                "configtext":"class='text-start text-center '"
+            },
+            {
+                "plan":"Standar",
+                "precio":"COP26,900",
+                "calidad":"Better",
+                "resolucion":"1080p",
+                "img":"<td><svg class='bi' width='24' height='24'><use xlink:href='#check' /></svg></td>",
+                "configtext":"class='text-start text-center '"
+            },
+            {
+                "plan":"Premium",
+                "precio":"COP38,900",
+                "calidad":"Best",
+                "resolucion":"4K+HDR",
+                "img":"<td><svg class='bi bi-lightning' width='24' height='24' class='''><use xlink:href='#check' /></svg></td>",
+                "configtext":"class='text-start text-center text-danger'"
+            }
+        ]
     }
 }
